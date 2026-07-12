@@ -35,6 +35,8 @@ const Ipad2 = () => {
                         <span className="cursor-pointer hover:underline">Learn more &gt;</span>
                         <span className="cursor-pointer hover:underline">Buy &gt;</span>
                     </div>
+
+                    
                 </div>
             </div>
         </div>
