@@ -22,7 +22,7 @@ const IPad = () => {
           </div>
         </div>
 
-        {/* MacBook Pro Section */}
+
         <div className="bg-[#000000] text-white flex flex-col items-center pt-12 pb-6 px-4 justify-between min-h-[500px]">
           <div className="text-center">
             <h2 className="text-3xl md:text-4xl font-bold tracking-tight">MacBook Pro</h2>
