@@ -1,7 +1,6 @@
 import React from 'react'
 import ipad2 from "../assets/ipad2.png"
 import ipad1 from "../assets/ipad1.png"
-
 const IPad = () => {
   return (
     <>

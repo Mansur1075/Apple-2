@@ -14,7 +14,6 @@ const Hader = () => {
             <section className='bg-[#161617CC] relative font-sans z-50'>
                 <Container>
                     <div className="flex items-center justify-between lg:justify-center py-3 lg:py-0 min-h-12">
-
                         <div className='text-white text-2xl lg:hidden pl-4'>
                             <FaApple />
                         </div>
@@ -38,7 +37,7 @@ const Hader = () => {
 
                         <div className="lg:hidden flex items-center gap-5 text-white text-2xl pr-4">
                             <IoIosSearch />
-                           <HiShoppingBag />
+                            <HiShoppingBag />
                             <div onClick={() => setManu(!Manu)} className="cursor-pointer">
                                 {Manu ? <RxCross1 /> : <FaBars />}
                             </div>

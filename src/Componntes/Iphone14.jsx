@@ -5,7 +5,7 @@ const Iphone14 = () => {
     return (
         <div>
             <div
-                className='bennar_1 h-125 md:h-162.5 text-black flex flex-col items-center justify-start pt-6 md:pt-10 w-full bg-[#FBFBFD] bg-no-repeat bg-bottom bg-contain'
+                className='bennar_1 h-125 md:h-162.5 text-black flex flex-col items-center justify-start pt-12 md:pt-16 w-full bg-[#FBFBFD] bg-no-repeat bg-bottom bg-[length:auto_75%] sm:bg-contain'
                 style={{ backgroundImage: `url(${bennarr})` }}
             >
                 <div className="text-center font-sans px-4">
