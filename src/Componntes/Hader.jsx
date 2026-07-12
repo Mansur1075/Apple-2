@@ -5,6 +5,7 @@ import { FaShopify } from "react-icons/fa6";
 import { IoIosSearch } from "react-icons/io";
 import { FaBars } from "react-icons/fa6";
 import { RxCross1 } from "react-icons/rx";
+import { HiShoppingBag } from 'react-icons/hi';
 
 const Hader = () => {
     let [Manu, setManu] = useState(false)
@@ -31,13 +32,13 @@ const Hader = () => {
                                 <li className='w-full border-b border-gray-800 lg:border-none pb-2 lg:pb-0 cursor-pointer'>Accessories</li>
                                 <li className='w-full border-b border-gray-800 lg:border-none pb-2 lg:pb-0 cursor-pointer'>Support</li>
                                 <li className='text-2xl hidden lg:block'><IoIosSearch /></li>
-                                <li className='text-2xl hidden lg:block'><FaShopify /></li>
+                                <li className='text-2xl hidden lg:block'><HiShoppingBag /></li>
                             </ul>
                         </div>
 
                         <div className="lg:hidden flex items-center gap-5 text-white text-2xl pr-4">
                             <IoIosSearch />
-                            <FaShopify />
+                           <HiShoppingBag />
                             <div onClick={() => setManu(!Manu)} className="cursor-pointer">
                                 {Manu ? <RxCross1 /> : <FaBars />}
                             </div>
