@@ -8,6 +8,7 @@ import Watch from '../Componntes/Watch'
 import IPad from '../Componntes/IPad'
 import Ipad2 from '../Componntes/Ipad2'
 import Fitness from '../Componntes/Fitness'
+import Slik from '../Componntes/Slik'
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
      <IPad/>
      <Ipad2/>
      <Fitness/>
+     <Slik/>
     </>
   )
 }
