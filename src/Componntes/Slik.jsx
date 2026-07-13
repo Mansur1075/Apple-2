@@ -1,6 +1,9 @@
 import React from 'react'
 import Container from './Container'
 import rto from "../assets/rto.png"
+import mansur0 from "../assets/mansur0.png"
+import mansur1 from "../assets/mansur1.png"
+import mansur2 from "../assets/mansur2.png"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination } from 'swiper/modules';
 
@@ -17,7 +20,7 @@ const Slik = () => {
                     slidesPerView={1.2}
                     centeredSlides={true}
                     loop={true}
-                    loopedSlides={2}
+                    loopAdditionalSlides={2}
                     autoplay={{
                         delay: 3000,
                         disableOnInteraction: false,
@@ -40,23 +43,23 @@ const Slik = () => {
                     </SwiperSlide>
                     
                     <SwiperSlide className="h-auto aspect-video">
-                        <img src={rto} alt="Slide 2" className='w-full h-full object-cover rounded-2xl md:rounded-3xl block shadow-2xl' />
+                        <img src={mansur0} alt="Slide 2" className='w-full h-full object-cover rounded-2xl md:rounded-3xl block shadow-2xl' />
                     </SwiperSlide>
                     
                     <SwiperSlide className="h-auto aspect-video">
-                        <img src={rto} alt="Slide 3" className='w-full h-full object-cover rounded-2xl md:rounded-3xl block shadow-2xl' />
+                        <img src={mansur1} alt="Slide 3" className='w-full h-full object-cover rounded-2xl md:rounded-3xl block shadow-2xl' />
                     </SwiperSlide>
 
                     <SwiperSlide className="h-auto aspect-video">
-                        <img src={rto} alt="Slide 4" className='w-full h-full object-cover rounded-2xl md:rounded-3xl block shadow-2xl' />
+                        <img src={mansur2} alt="Slide 4" className='w-full h-full object-cover rounded-2xl md:rounded-3xl block shadow-2xl' />
                     </SwiperSlide>
 
                     <SwiperSlide className="h-auto aspect-video">
-                        <img src={rto} alt="Slide 5" className='w-full h-full object-cover rounded-2xl md:rounded-3xl block shadow-2xl' />
+                        <img src={mansur0} alt="Slide 5" className='w-full h-full object-cover rounded-2xl md:rounded-3xl block shadow-2xl' />
                     </SwiperSlide>
 
                     <SwiperSlide className="h-auto aspect-video">
-                        <img src={rto} alt="Slide 6" className='w-full h-full object-cover rounded-2xl md:rounded-3xl block shadow-2xl' />
+                        <img src={mansur2} alt="Slide 6" className='w-full h-full object-cover rounded-2xl md:rounded-3xl block shadow-2xl' />
                     </SwiperSlide>
                 </Swiper>
             </div>

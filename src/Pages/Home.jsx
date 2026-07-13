@@ -9,6 +9,8 @@ import IPad from '../Componntes/IPad'
 import Ipad2 from '../Componntes/Ipad2'
 import Fitness from '../Componntes/Fitness'
 import Slik from '../Componntes/Slik'
+import Peragrp from '../Componntes/Peragrp'
+import Footer from '../Componntes/Footer'
 
 const Home = () => {
   return (
@@ -22,6 +24,8 @@ const Home = () => {
      <Ipad2/>
      <Fitness/>
      <Slik/>
+     <Peragrp/>
+     <Footer/>
     </>
   )
 }
