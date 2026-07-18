@@ -11,7 +11,7 @@ const IPad = () => {
           <img
             src={ipad2}
             alt="iPad Background"
-            className="absolute inset-0 w-full h-full object-cover z-0"
+            className="absolute inset-0 w-full h-full object-cover z-0 hover:scale-105 ease-in-out duration-300 "
           />
           <div className="text-center z-10">
             <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-black">iPad</h2>
@@ -26,7 +26,7 @@ const IPad = () => {
           <img
             src={ipad1}
             alt="MacBook Background"
-            className="absolute inset-0 w-full h-full object-cover z-0"
+            className="absolute inset-0 w-full h-full object-cover z-0 hover:scale-105 ease-in-out duration-300"
           />
           <div className="text-center z-10">
             <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-white">MacBook Pro</h2>

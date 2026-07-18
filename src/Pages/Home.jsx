@@ -12,6 +12,8 @@ import Slik from '../Componntes/Slik'
 import Peragrp from '../Componntes/Peragrp'
 import Footer from '../Componntes/Footer'
 
+
+
 const Home = () => {
   return (
     <>
@@ -26,6 +28,7 @@ const Home = () => {
      <Slik/>
      <Peragrp/>
      <Footer/>
+     
     </>
   )
 }
