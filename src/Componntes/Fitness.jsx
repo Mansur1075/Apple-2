@@ -25,6 +25,11 @@ const Fitness = () => {
             </div>
 
 
+
+
+            
+
+
             <div className="h-125 md:h-145 w-full relative overflow-hidden flex flex-col items-center justify-start pt-12 md:pt-16 px-4 group cursor-pointer bg-white">
 
                 <div className="absolute inset-0 bg-black/5 opacity-0 transition-opacity ease-in-out duration-700 group-hover:opacity-100 z-0"></div>
