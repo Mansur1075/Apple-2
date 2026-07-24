@@ -14,6 +14,7 @@ import Footer from '../Componntes/Footer'
 
 
 
+
 const Home = () => {
   return (
     <>

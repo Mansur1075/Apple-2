@@ -1,7 +1,13 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import ipad2 from "../assets/ipad2.png"
 import ipad1 from "../assets/ipad1.png"
+import { ApiData } from './ContextApi'
+
 const IPad = () => {
+
+  let data = useContext(ApiData)
+  console.log(data);
+  
   return (
     <>
       <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-3 p-3 bg-white font-sans">
