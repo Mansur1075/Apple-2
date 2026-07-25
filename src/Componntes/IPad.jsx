@@ -13,7 +13,7 @@ const IPad = () => {
       <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-3 p-3 bg-white font-sans">
         <div className="h-125 md:h-145 w-full relative overflow-hidden flex flex-col items-center justify-start pt-12 md:pt-16 px-4 group">
           <img
-            src={ipad2}
+            src={data[3]?.thumbnail || ipad2}
             alt="iPad Background"
             className="absolute inset-0 w-full h-full object-cover z-0 transition-transform ease-in-out duration-700 group-hover:scale-110"
           />
