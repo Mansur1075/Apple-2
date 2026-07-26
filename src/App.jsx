@@ -6,6 +6,7 @@ import { FaBars } from "react-icons/fa";
 <FaBars />
 import './App.css'
 import Home from './Pages/Home';
+import About from './Pages/About';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,6 +14,7 @@ function App() {
   return (
     <>
      <Home/>
+     
     </>
   )
 }
