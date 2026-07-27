@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <footer className="w-full bg-[#f5f5f7] text-[#1d1d1f] text-[12px] pt-8 pb-12 font-normal">
             <Container>
-                <div className="max-w-5xl mx-auto px-4">
+                <div className="max-w-5xl mx-auto px-4 ">
 
                     <div className="grid grid-cols-1 md:grid-cols-5 gap-6 md:gap-4 pb-6">
 

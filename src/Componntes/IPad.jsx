@@ -2,6 +2,8 @@ import React, { useContext } from 'react'
 import ipad2 from "../assets/ipad2.png"
 import ipad1 from "../assets/ipad1.png"
 import { ApiData } from './ContextApi'
+import { Link } from 'react-router-dom'
+
 
 const IPad = () => {
 
@@ -12,11 +14,14 @@ const IPad = () => {
     <>
       <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-3 p-3 bg-white font-sans">
         <div className="h-125 md:h-145 w-full relative overflow-hidden flex flex-col items-center justify-start pt-12 md:pt-16 px-4 group">
+          <Link to="/store">
+          
           <img
             src={data[11]?.thumbnail || ipad2}
             alt="iPad Background"
             className="absolute inset-0 w-full h-full object-cover z-0 transition-transform ease-in-out duration-700 group-hover:scale-110"
           />
+          </Link>
           <span className="absolute inset-y-0 -left-full block w-1/2 h-full bg-linear-to-r from-transparent via-black/20 to-transparent opacity-70 skew-x-[-25deg] transition-all ease-in-out duration-1000 group-hover:left-[150%] z-0 pointer-events-none"></span>
 
           <div className="text-center z-10">
