@@ -9,7 +9,7 @@ const Bennar2 = () => {
     return (
         <section className="bg-[#f5f5f7] py-16 text-[#1d1d1f] w-full">
             <Container>
-                <div className="flex flex-col lg:flex-row justify-between items-start gap-6 mb-16">
+                <div className="flex pt-[-20px] flex-col lg:flex-row justify-between items-start gap-6 mb-16">
                     <h1 className="text-4xl sm:text-5xl font-semibold max-w-xl leading-tight tracking-tight">
                         <span className="text-black">Store.</span>{' '}
                         <span className="text-[#6e6e73]">
