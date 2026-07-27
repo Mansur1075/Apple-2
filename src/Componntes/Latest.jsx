@@ -20,10 +20,10 @@ const Latest = () => {
                 </div>
                 <div className="relative w-full h-64 mt-4 flex items-center justify-center">
                     <img
-                               src={data[15]?.thumbnail || ipad2}
-                               alt="iPad Background"
-                               className="absolute inset-0 w-full h-full object-cover z-0 transition-transform ease-in-out duration-700 group-hover:scale-110"
-                             />
+                        src={data[15]?.thumbnail || "https://via.placeholder.com/400x300"}
+                        alt="iPad Background"
+                        className="absolute inset-0 w-full h-full object-cover z-0 transition-transform ease-in-out duration-700 group-hover:scale-110"
+                    />
                 </div>
             </div>
 
@@ -34,11 +34,11 @@ const Latest = () => {
                     <p className="text-sm font-medium text-slate-300 mt-3">From $1999 or $166.58/mo. for 12 mo.</p>
                 </div>
                 <div className="relative w-full h-64 mt-4 flex items-center justify-center">
-                     <img
-                                src={data[11]?.thumbnail || ipad2}
-                                alt="iPad Background"
-                                className="absolute inset-0 w-full h-full object-cover z-0 transition-transform ease-in-out duration-700 group-hover:scale-110"
-                              />
+                    <img
+                        src={data[11]?.thumbnail || "https://via.placeholder.com/400x300"}
+                        alt="iPad Background"
+                        className="absolute inset-0 w-full h-full object-cover z-0 transition-transform ease-in-out duration-700 group-hover:scale-110"
+                    />
                 </div>
             </div>
 
@@ -50,10 +50,10 @@ const Latest = () => {
                 </div>
                 <div className="relative w-full h-64 mt-4 flex items-center justify-center">
                     <img
-                               src={data[27]?.thumbnail || ipad2}
-                               alt="iPad Background"
-                               className="absolute inset-0 w-full h-full object-cover z-0 transition-transform ease-in-out duration-700 group-hover:scale-110"
-                             />
+                        src={data[22]?.thumbnail || "https://via.placeholder.com/400x300"}
+                        alt="iPad Background"
+                        className="absolute inset-0 w-full h-full object-cover z-0 transition-transform ease-in-out duration-700 group-hover:scale-110"
+                    />
                 </div>
             </div>
         </div>
