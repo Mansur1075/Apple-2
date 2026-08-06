@@ -4,6 +4,7 @@ import Latest from '../Componntes/Latest'
 import Help from '../Componntes/Help.jsx'
 import Accessories from '../Componntes/Accessories.jsx'
 import Audio from '../Componntes/Audio.jsx'
+import AppleExperience from '../Componntes/AppleExperience.jsx'
 
 
 const Store = () => {
@@ -14,6 +15,7 @@ const Store = () => {
    <Help/>
    <Accessories/>
    <Audio/>
+   <AppleExperience/>
    </>
   )
 }
