@@ -83,21 +83,6 @@ const AppleExperience = () => {
     </section>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   );
 };
 
