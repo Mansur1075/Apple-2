@@ -10,11 +10,13 @@ import Home from './Pages/Home';
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom';
 import Store from './Pages/Store';
 import Layouts from './Componntes/Layouts';
+import Apple3 from './Pages/Apple3';
 
 let router = createBrowserRouter(createRoutesFromElements(
 <Route element={<Layouts/>}>
   <Route index element={<Home/>}></Route>
   <Route path="/store" element={<Store/>}></Route>
+  <Route path="/apple3" element={<Apple3/>}></Route>
 </Route>
 ))
 

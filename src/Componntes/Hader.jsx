@@ -31,7 +31,7 @@ const Hader = () => {
                                 </li>
 
                                 <li className='w-full border-b border-gray-800 lg:border-none pb-2 lg:pb-0 cursor-pointer'>
-                                    <NavLink to="/mac" className={({ isActive }) => isActive ? 'text-white font-medium' : 'text-gray-400 hover:text-white transition-colors'}>Mac</NavLink>
+                                    <NavLink to="/apple3" className={({ isActive }) => isActive ? 'text-white font-medium' : 'text-gray-400 hover:text-white transition-colors'}>Mac</NavLink>
                                 </li>
 
                                 <li className='w-full border-b border-gray-800 lg:border-none pb-2 lg:pb-0 cursor-pointer'>
@@ -82,6 +82,14 @@ const Hader = () => {
                 </Container>
             </section>
         </>
+
+
+
+
+
+
+
+
     )
 }
 

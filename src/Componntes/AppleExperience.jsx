@@ -11,13 +11,13 @@ const AppleExperience = () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-        <div className="relative h-[450px] rounded-3xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer bg-black">
+        <div className="relative h-112.5 rounded-3xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer bg-black">
           <img
             src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=800&q=80"
             alt="Spatial Audio"
             className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-80"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent flex flex-col justify-between p-8">
+          <div className="absolute inset-0 bg-linear-to-t from-black/90 via-black/20 to-transparent flex flex-col justify-between p-8">
             <span className="text-xs font-semibold tracking-wider text-gray-300 uppercase">
               APPLE MUSIC
             </span>
@@ -27,7 +27,7 @@ const AppleExperience = () => {
           </div>
         </div>
 
-        <div className="h-[450px] bg-[#f5f5f7] rounded-3xl p-8 flex flex-col justify-between shadow-sm hover:shadow-md transition-all duration-300">
+        <div className="h-112.5 bg-[#f5f5f7] rounded-3xl p-8 flex flex-col justify-between shadow-sm hover:shadow-md transition-all duration-300">
           <div>
             <span className="text-xs font-semibold tracking-wider text-gray-500 uppercase">
               APPLE TV+ & SERVICES
@@ -59,7 +59,7 @@ const AppleExperience = () => {
           </div>
         </div>
 
-        <div className="h-[450px] bg-[#f5f5f7] rounded-3xl p-8 flex flex-col justify-between shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer">
+        <div className="h-112.5 bg-[#f5f5f7] rounded-3xl p-8 flex flex-col justify-between shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer">
           <div>
             <span className="text-xs font-semibold tracking-wider text-gray-500 uppercase">
               APPLECARE+
