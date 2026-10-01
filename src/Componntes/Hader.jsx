@@ -12,7 +12,7 @@ const Hader = () => {
     let [Manu, setManu] = useState(false)
     return (
         <>
-            <section className='bg-[#161617CC] relative font-sans z-50'>
+            <section className='bg-[#161617CC] fixed top-0 left-0 w-full font-sans z-50 backdrop-blur-md'>
                 <Container>
                     <div className="flex items-center justify-between lg:justify-center py-3 lg:py-0 min-h-12">
                         <NavLink to="/" className={({ isActive }) => isActive ? 'text-white text-[28px] lg:hidden' : 'text-gray-400 hover:text-white text-[28px] lg:hidden transition-colors'}>
